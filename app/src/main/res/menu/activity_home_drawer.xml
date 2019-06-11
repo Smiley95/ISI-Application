@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/services" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/icons8support26"
+            android:title="Services" />
+        <item
+            android:orderInCategory="0"
+            android:id="@+id/nav_history"
+            android:icon="@drawable/icons8timemachine26"
+            android:title="History" />
+        <item
+            android:orderInCategory="0"
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icons8about26"
+            android:title="About" />
+    </group>
+
+    <group android:id="@+id/other" android:checkableBehavior="single">
+        <menu>
+            <item
+                android:orderInCategory="1"
+                android:id="@+id/nav_web"
+                android:icon="@drawable/icons8geography26"
+                android:title="ISI.com" />
+            <item
+                android:orderInCategory="1"
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icons8exit26"
+                android:title="Logout" />
+        </menu>
+    </group>
+
+</menu>
